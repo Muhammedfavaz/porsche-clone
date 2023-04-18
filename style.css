@@ -1,0 +1,224 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid{
+    height: 100px;
+}
+.container-fluid a {
+    z-index: 1;
+}
+.navbar-brand{
+    width: 120px;
+    height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+.navbar-brand img{
+    height: 69px;
+    width: 147px;
+}
+.collapse ul li{
+    
+    padding-top: 15px;
+}
+.collapse ul li a{
+    margin-top: -18px;
+    font-family: "Porsche Next","Arial Narrow",sans-serif;
+   font-size: 16px;
+   letter-spacing: 0px;
+   display: flex;
+    flex-direction: column;
+}
+.collapse form span{
+    font-family: "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.collapse form{
+    justify-content: flex-end;
+}
+.collapse form .vr{
+    height: 40px;
+}
+.collapse form a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 49px;
+    font-size: 17px;
+}
+/* carousal */
+.carousel-inner .carousel-item img{
+    position: relative;
+}
+.carousel-inner .carousel-item .info{
+    position:absolute;
+    left: 50px;
+    top: 450px;   
+}
+.carousel-inner .carousel-item .info span{
+    margin-top: 10px;    
+}
+.carousel-inner .carousel-item .info h1{
+    font-family: "Porsche Next","Arial Narrow",sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff ;
+}
+.carousel-inner .carousel-item .info h3{
+    color: #fff;
+    margin-left: 32px;
+    font-family: "Porsche Next","Arial Narrow",sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    margin-top: -15px;
+
+}
+.carousel-inner .red-arrow h1:hover{
+    color: red;
+}
+.carousel-inner .info h3:hover{
+    color: red;
+}.container-fluid .text-black{
+    margin-left  : 60px;
+    font-family: "Porsche Next","Arial Narrow",sans-serif;
+    
+}
+.container-fluid .clp form a{
+    display: none;
+}
+.container-fluid .clp form .vr{
+    display: none;
+}
+
+
+
+.models{
+    height: auto;
+}
+
+.item-img img{
+    filter: brightness(80%);
+    width: 105%;
+    overflow: hidden;
+    margin-left: -12px;
+
+    object-fit: cover;
+}.price-disclaimer{
+    height: 150px;
+    font-family: Porsche Next,Arial Narrow,sans-serif;
+    position: relative;
+
+}
+
+
+
+.carousel-item .card{
+    width:100%;
+    flex-direction:row;
+}
+.carousel-item .card-body{
+    width:100%;
+    
+}
+.card-body a img{
+    width:100%;
+}
+.card-body a{
+    text-decoration: none;
+}.card-body button .btn{
+    border-radius: 0px;  
+
+}
+.card-body a .btn{
+    margin:auto; 
+    display:flex; 
+    align-items:center; 
+    justify-content:space-evenly; 
+}
+.carousel-item{
+    font-family: Porsche Next,Arial Narrow,sans-serif;
+
+}
+ .carousel-control-prev{
+    width: 5%;
+ }
+ .carousel-control-next{
+    width: 5%;
+ }.card-body a  :hover{
+    color: red;
+ }
+
+
+
+
+
+
+
+
+
+
+    
+@media (max-width:992px){
+    .container-fluid .collapse {
+        background: #ffffff;
+        z-index: 9999;
+        height: 100vh;
+        width: auto;
+        transition: 600ms;
+        
+
+    }
+    .container-fluid .collapse ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        box-shadow: -3px 5px 6px  rgba(0, 0, 0, 1);
+        
+        
+
+    } 
+    .container-fluid .collapse ul li img{
+    
+        width: 80px;
+        height: 80px;
+        padding: 0px;
+    }   
+    .navbar-brand{
+        width: 110px;
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 80px;
+    }
+    .navbar-brand img{
+        height: 95px;
+        width: 95px;
+    } 
+    .container-fluid form{
+        font-weight: 400;
+    }
+    .container-fluid .clp form a{
+        display: block;
+        margin-right: 20px;
+    }
+    .collapse form a {
+        display: none;
+    }
+   
+
+ 
+
+          
+    }
+    
+    
+   
+ 
