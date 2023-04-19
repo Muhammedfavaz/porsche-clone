@@ -160,6 +160,68 @@ body{
 
 
 
+ .shpng-tools{
+    height: 300px;
+    width: 100%;
+ }
+ .shpng-tools a img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+ }
+ .shpng-tools a .comp-hd-line{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+ }
+ .bi.bi-chevron-compact-right {
+    color: red;
+ }
+ 
+ 
+ .Discover{
+    height: 300px;
+    width: 100%;
+ }.Discover a img{
+    height: 100%;
+    width: 100%;
+ }.Discover  a .comp-hd-line{
+    font-family: Porsche Next,Arial Narrow,sans-serif;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 400;
+    color:#383838;
+    letter-spacing: 0.3px;
+    padding-top: 5px;
+ }
+ .Discover  a{
+    text-decoration: none;
+ }.bi.bi-box-arrow-up-right{
+    color: red;
+ }
+
+.main-ftr{
+    font-family: Porsche Next,Arial Narrow,sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+}.ftr-share-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
 
 
 
