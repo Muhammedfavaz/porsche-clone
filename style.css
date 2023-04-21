@@ -109,8 +109,11 @@ body{
     margin-left: -12px;
 
     object-fit: cover;
-}.price-disclaimer{
-    height: 150px;
+}
+
+.price-disclaime{
+
+    height: 110px;
     font-family: Porsche Next,Arial Narrow,sans-serif;
     position: relative;
 
@@ -118,6 +121,27 @@ body{
 
 
 
+
+
+
+
+
+.container.card-cars h1{
+    font-family:Porsche Next,Arial Narrow,sans-serif; 
+    letter-spacing: 0px; 
+    font-weight: 600; 
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+.res-a-tag{
+    display: none;
+}
 .carousel-item .card{
     width:100%;
     flex-direction:row;
@@ -180,7 +204,21 @@ body{
  .bi.bi-chevron-compact-right {
     color: red;
  }
- 
+
+
+
+ .shopng-head h1{
+    font-family:Porsche Next,Arial Narrow,sans-serif; 
+    letter-spacing: 0px; 
+    font-weight: 600; 
+    font-size: 45px;
+ }
+ .Discover-head h1{
+    font-family:Porsche Next,Arial Narrow,sans-serif; 
+    letter-spacing: 0px; 
+    font-weight: 600; 
+    font-size: 45px;
+ }
  
  .Discover{
     height: 300px;
@@ -222,6 +260,97 @@ body{
 .bi.bi-chevron-compact-down{
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel.repn-tab{
+    display: none;
+}
+
+
+
+
+
+
+
+@media(max-width:992px){
+
+     .carousel.no-res{
+        display: none;
+    }
+    
+    .carousel.repn-tab{
+        display: block;
+    }
+    .container.card-cars h1{
+        font-size: 30px;
+    }
+    .container.shopng-head h1{
+        font-size: 30px;
+    }
+    .shpng-tools{
+        height: 200px;
+    }
+    .shpng-tools a img{
+        height: 100%;
+    }
+    .Discover-head h1{
+    font-size: 30px;
+    }
+    .Discover a img {
+        height: 200px;
+    }.Discover a .comp-hd-line span{
+        font-size: 13px;
+    }
+    .hrizondel hr{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .write p{
+        font-size: 5px;
+        
+    }
+    .own-build a button{
+        display: none;
+    }
+    .brand-nme-1  {
+        display: none;
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -276,13 +405,20 @@ body{
     .collapse form a {
         display: none;
     }
-   
+    .res-a-tag{
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+    }
+            
+}
 
- 
 
-          
+/* @media(max-width:576px){
+    .container.card-cars h1 {
+        font-size: 1000px !important;
     }
     
-    
-   
- 
+} */
